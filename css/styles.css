@@ -83,12 +83,10 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .home:hover {
   border-color: var(--main-color);
-
 }
 .home-img img {
   width: 35vw;
