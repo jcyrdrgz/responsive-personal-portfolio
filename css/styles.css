@@ -83,12 +83,12 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.5s ease;
+
 }
 
 .home:hover {
   border-color: var(--main-color);
-  transform: scale(1.02);
+
 }
 .home-img img {
   width: 35vw;
