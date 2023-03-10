@@ -1,201 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JC Rodriguez Personal Portfolio</title>
 
-<head>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JC Rodriguez Personal Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <a href="#" class="logo">JC Portfolio</a>
+      </div>
 
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Service/Experience</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <ul>
+        <li>
+          <a class="display-mode-toggle"
+            ><img src="images/sun.png" id="icon"
+          /></a>
+        </li>
+      </ul>
+    </header>
 
-  <link rel="stylesheet" href="css/styles.css" />
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hey! It's Me</h3>
+        <h1>JC Rodriguez</h1>
+        <h3>And I'm <span class="multiple-text"></span></h3>
+        <p>
+          Wanted to transform your Idea or Product digitally with the help of a
+          Professional Website? <br />
+          Hit me up! <br />
+          <span>Available for Freelance work!</span>
+        </p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/jcyrdrgz/" target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://www.behance.net/jyrorodrigeb09" target="_blank"
+            ><i class="bx bxl-behance"></i
+          ></a>
+          <a href="https://www.instagram.com/jcyrodriguez" target="_blank"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/jaicy-rodriguez-06b132142/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <a
+          href="https://drive.google.com/file/d/1S52i7P7Du715cefOxo4axCyXCQcW8IfO/view?usp=share_link"
+          target="_blank"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="images/pattern3.png" alt="" class="main-img" />
+      </div>
+    </section>
 
-</head>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/AboutImagePattern-dark.png" alt="" />
+      </div>
 
-<body>
-  <header class="header">
-    <a href="#" class="logo"><img src="images/logo1.png" alt=""></a>
-    <i class="bx bx-menu" id="menu-icon"></i>
-    <nav class="navbar">
-      <a href="#home" class="active">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Service/Experience</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>JC - IT Expert / Front end Web Developer</h3>
+        <p>
+          I am Jaicy Rodriguez an IT Professional and Freelance Developer.
+          <br />
+          What stops us from achieving our goals is ourselves. Train your mind
+          to make anything possible and build opportunities. Your mind is
+          limitless, and the Internet is an endless library.
+        </p>
 
-  <section class="home" id="home">
-    <div class="home-content">
-      <h3>Hey! It's Me</h3>
-      <h1>JC Rodriguez</h1>
-      <h3>And I'm <span class="multiple-text"></span></h3>
-      <p>
-        Wanted to transform your Idea or Product digitally with the help of a Professional Website? <br> Hit me up! <br> <span>Available for Freelance work!</span> 
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Services and <span>Experience</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Expert in building Website using HTML5, CSS, PHP and JavaScript for
+            Front end development.
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+        <div class="services-box">
+          <i class="bx bx-game"></i>
+          <h3>Game Development</h3>
+          <p>Expert in building games using Unity 3D with C#.</p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+        <div class="services-box">
+          <i class="bx bx-code-block"></i>
+          <h3>System / Application Development</h3>
+          <p>
+            Expert in building Computer Systems and Applications using VB.net.
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+        <div class="services-box">
+          <i class="bx bx-data"></i>
+          <h3>Database Management</h3>
+          <p>
+            Expert in managing data through database applications such as
+            Microsoft SQL Server, My SQL, SQLite and Oracle SQL.
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+        <div class="services-box">
+          <i class="bx bx-support"></i>
+          <h3>Technical Support</h3>
+          <p>
+            2 years of experience handling Technical Support for Microsoft
+            Services.
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+        <div class="services-box">
+          <i class="bx bx-support"></i>
+
+          <h3>IT Helpdesk Technician</h3>
+          <p>
+            2 years of IT Technician experience with Active Directory, Service
+            Now, Windows Software and Hardware, Onboarding and Offboarding,
+            Telecom.
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+        <div class="services-box">
+          <i class="bx bx-brain"></i>
+          <h3>Software Developer</h3>
+          <p>
+            Currently a Project Manager/Software Engineer supplying knowledge to
+            an A.I.
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+        <div class="services-box">
+          <i class="bx bx-user-voice"></i>
+          <h3>Certified Trainer</h3>
+          <p>Taken and Passed the ISO 9001 Trainer Certification.</p>
+          <a
+            href="https://drive.google.com/file/d/1ftyElQPop6sIT4kMQ-9WKr8l0mLaHOkO/view?usp=sharing"
+            target="_blank"
+            class="btn"
+            >See Certification</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/portfolio1.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Youtube Clone</h4>
+            <p>
+              Created a Youtube Clone to showcase my skills building a
+              responsive website.
+            </p>
+            <a href="https://jc-rodriguez-youtube-clone.vercel.app/" target="">
+              <i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio2.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Coming Soon</h4>
+            <p>More Projects to be built!</p>
+            <a href="#" target=""> <i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio3.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Coming Soon</h4>
+            <p>More Projects to be built!</p>
+            <a href="#" target=""> <i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio4.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Coming Soon</h4>
+            <p>More Projects to be built!</p>
+            <a href="#" target=""> <i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="contact-message">
+        Let's start the journey building your own Website!
       </p>
-      <div class="social-media">
-        <a href="https://www.facebook.com/jcyrdrgz/" target="_blank"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.behance.net/jyrorodrigeb09" target="_blank"><i class='bx bxl-behance'></i></a>
-        <a href="https://www.instagram.com/jcyrodriguez" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
-        <a href="https://www.linkedin.com/in/jaicy-rodriguez-06b132142/" target="_blank"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <a href="https://drive.google.com/file/d/1S52i7P7Du715cefOxo4axCyXCQcW8IfO/view?usp=share_link" target="_blank" class="btn">Download CV</a>
-    </div>
-    <div class="home-img">
-      <img src="images/home1.png" alt="" />
-    </div>
-  </section>
+      <h2 class="heading">
+        <a href="mailto:jcyrdrgz@gmail.com"> <span>Contact Me!</span></a>
+      </h2>
 
-  <section class="about" id="about">
-    <div class="about-img">
-      <img src="images/about.png" alt="" />
-    </div>
-
-    <div class="about-content">
-      <h2 class="heading">About <span>Me</span></h2>
-      <h3>JC - IT Expert / Front end Web Developer</h3>
-      <p>
-      I am Jaicy Rodriguez an IT Professional and Freelance Developer. <br> What stops us from achieving our goals is ourselves. Train your mind to make anything possible and build opportunities. Your mind is limitless, and the Internet is an endless library.
-      </p>
-
-      <!-- <a href="#" class="btn">Read More</a> -->
-    </div>
-  </section>
-
-  <section class="services" id="services">
-    <h2 class="heading">Services and <span>Experience</span></h2>
-    <div class="services-container">
-      <div class="services-box">
-        <i class="bx bx-code-alt"></i>
-        <h3>Web Development</h3>
-        <p>
-          Expert in building Website using HTML5, CSS, PHP and JavaScript for Front end development.
-        </p>
-        <!-- <a href="#" class="btn">Read More</a> -->
-      </div>
-      <div class="services-box">
-        <i class='bx bx-game' ></i>
-        <h3>Game Development</h3>
-        <p>
-         Expert in building games using Unity 3D with C#.
-        </p>
-        <!-- <a href="#" class="btn">Read More</a> -->
-      </div>
-      <div class="services-box">
-        <i class='bx bx-code-block' ></i>
-        <h3>System / Application Development</h3>
-        <p>
-          Expert in building Computer Systems and Applications using VB.net.
-        </p>
-        <!-- <a href="#" class="btn">Read More</a> -->
-      </div>
-      <div class="services-box">
-        <i class='bx bx-data' ></i>
-        <h3>Database Management</h3>
-        <p>
-         Expert in managing data through database applications such as Microsoft SQL Server, My SQL, SQLite and Oracle SQL.
-        </p>
-        <!-- <a href="#" class="btn">Read More</a> -->
-      </div>
-      <div class="services-box">
-        <i class='bx bx-support' ></i>
-        <h3>Technical Support</h3>
-        <p>
-          2 years of experience handling Technical Support for Microsoft  Services.
-        </p>
-        <!-- <a href="#" class="btn">Read More</a> -->
-      </div>
-      <div class="services-box">
-        <i class='bx bx-support' ></i>
-        <i class='bx bx-buildings' ></i>
-        <h3>IT Helpdesk Technician</h3>
-        <p>
-          2 years of IT Technician experience with Active Directory, Service Now, Windows Software and Hardware, Onboarding and Offboarding, Telecom.
-        </p>
-        <!-- <a href="#" class="btn">Read More</a> -->
-      </div>
-      <div class="services-box">
-        <i class='bx bx-brain' ></i>
-        <h3>Software Developer</h3>
-        <p>
-          Currently a Project Manager/Software Engineer supplying knowledge to an A.I.
-        </p>
-        <!-- <a href="#" class="btn">Read More</a> -->
-      </div>
-      <div class="services-box">
-        <i class='bx bx-user-voice'></i>
-        <h3>Certified Trainer</h3>
-        <p>
-          Taken and Passed the ISO 9001 Trainer Certification.
-        </p>
-        <a href="https://drive.google.com/file/d/1ftyElQPop6sIT4kMQ-9WKr8l0mLaHOkO/view?usp=sharing" target="_blank" class="btn">See Certification</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="portfolio" id="portfolio">
-    <h2 class="heading">Latest <span>Project</span></h2>
-    <div class="portfolio-container">
-      <div class="portfolio-box">
-        <img src="images/portfolio1.png" alt="" />
-        <div class="portfolio-layer">
-          <h4>Youtube Clone</h4>
-          <p>
-            Created a Youtube Clone to showcase my skills building a responsive website.
-          </p>
-          <a href="https://jc-rodriguez-youtube-clone.vercel.app/" target="">
-
-            <i class='bx bx-link-external'></i></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/portfolio2.png" alt="" />
-        <div class="portfolio-layer">
-          <h4>Coming Soon</h4>
-          <p>
-            More Projects to be built!
-          </p>
-          <a href="#" target="">
-
-            <i class='bx bx-link-external'></i></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/portfolio3.png" alt="" />
-        <div class="portfolio-layer">
-          <h4>Coming Soon</h4>
-          <p>
-            More Projects to be built!
-          </p>
-          <a href="#" target="">
-
-            <i class='bx bx-link-external'></i></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/portfolio4.png" alt="" />
-        <div class="portfolio-layer">
-          <h4>Coming Soon</h4>
-          <p>
-            More Projects to be built!
-          </p>
-          <a href="#" target="">
-
-            <i class='bx bx-link-external'></i></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <p class="contact-message"> Let's start the journey building your own Website!</p>
-    <h2 class="heading"> <a href="mailto:jcyrdrgz@gmail.com"> <span>Contact Me!</span></a></h2>
-
-
-    <!-- <form action="#">
+      <!-- <form action="#">
       <div class="input-box">
         <input type="text" placeholder="Full Name">
         <input type="text" placeholder="Email Address">
@@ -205,26 +237,24 @@
       <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
       <input type="submit" value="Send Message" class="btn">
     </form> -->
-    <!-- <div class="contact-info">
+      <!-- <div class="contact-info">
       <a href="mailto:jcyrdrgz@gmail.com" target="_blank"><i class="bx bxl-facebook"></i></a>
       <a href="#"><i class='bx bxl-behance'></i></a>
       <a href="#"><i class="bx bxl-instagram-alt"></i></a>
       <a href="#"><i class="bx bxl-linkedin"></i></a>
     </div> -->
+    </section>
 
-  </section>
-
-  <footer class="footer">
-    <div class="footer-text">
-      <p>&copy; 2023 by Jaicy Rodriguez</p>
-    </div>
-    <div class="footer-iconTop">
-      <a href="#home"><i class='bx bxs-arrow-to-top'></i></a>
-    </div>
-  </footer>
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="js/script.js"></script>
-</body>
-
+    <footer class="footer">
+      <div class="footer-text">
+        <p>&copy; 2023 by Jaicy Rodriguez</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bxs-arrow-to-top"></i></a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

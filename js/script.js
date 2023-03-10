@@ -17,7 +17,7 @@ let navLinks = document.querySelectorAll('header nav a');
 window.onscroll = () => {
   sections.forEach(sec => {
     let top = window.scrollY;
-    let offset = sec.offsetTop - 150;
+    let offset = sec.offsetTop - 10;
     let height = sec.offsetHeight;
     let id = sec.getAttribute('id');
 
@@ -48,8 +48,8 @@ ScrollReveal({
   duration: 2000,
   delay: 200
 });
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.header, .home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
@@ -62,3 +62,20 @@ const typed = new Typed('.multiple-text', {
   loop: true
 });
 // });
+
+
+
+// Light Mode toggle 
+
+var icon = document.getElementById("icon");
+
+  icon.onclick = function() {
+  document.body.classList.toggle("light-theme");
+    if (document.body.classList.contains("light-theme"))
+    {
+      icon.src="images/moon.png";
+    }
+    else {
+      icon.src="images/sun.png";
+    }
+}
