@@ -468,8 +468,11 @@ nav ul {
 }
 
 @media (max-width: 991px) {
+  .home {
+    padding-top: 10vh;
+  }
   .header {
-    padding: 2rem 3%;
+    padding: 1.5rem 3%;
   }
   section {
     padding: 7rem 3% 2rem;
@@ -484,7 +487,7 @@ nav ul {
     min-height: 100vh;
   } */
   .services-container .services-box {
-    height: 30vh;
+    height: 38vh;
   }
 
   .footer {
