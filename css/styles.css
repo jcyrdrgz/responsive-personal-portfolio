@@ -43,6 +43,9 @@ span {
   color: var(--main-color);
 }
 
+.thumbnail-img {
+  display: none;
+}
 .header {
   position: fixed;
   top: 0;
