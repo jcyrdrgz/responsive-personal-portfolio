@@ -563,7 +563,7 @@ span {
 
 #preloader {
   background: #1f242d url(/images/preloader.gif) no-repeat center;
-  background-size: 30%;
+  background-size: 70%;
   height: 100vh;
   width: 100%;
   position: fixed;
