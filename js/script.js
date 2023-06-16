@@ -4,11 +4,20 @@ const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('header nav a');
 const header = document.querySelector('header');
 const icon = document.getElementById("icon");
+const loader=document.getElementById("preloader");
+
+window.addEventListener("load", () => {
+loader.style.display = "none";
+})
+
+
 
 menuIcon.onclick = () => {
   menuIcon.classList.toggle('bxs-x-circle');
   navbar.classList.toggle('active');
 };
+
+
 
 window.onscroll = () => {
   const top = window.scrollY;

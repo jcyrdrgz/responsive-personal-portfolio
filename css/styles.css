@@ -561,3 +561,12 @@ span {
     margin-top: 2rem;
   }
 }
+
+#preloader {
+  background: #1c273a url(/images/preloader.gif) no-repeat center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 999999;
+}
