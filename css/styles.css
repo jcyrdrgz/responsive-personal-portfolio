@@ -13,7 +13,7 @@
 
 :root {
   --bg-color: #1f242d;
-  --second-bg-color: #323946;
+  --second-bg-color: #2e3542;
   --text-color: #fff;
   --main-color: rgb(255, 178, 77);
 }
@@ -30,11 +30,10 @@ html {
 body {
   background: var(--bg-color);
   color: var(--text-color);
-}
-html,
-body {
+  overflow-y: scroll;
   overflow-x: hidden;
 }
+
 section {
   min-height: 100vh;
   padding: 7rem 9% 2rem;
@@ -563,7 +562,7 @@ span {
 }
 
 #preloader {
-  background: #1c273a url(/images/preloader.gif) no-repeat center;
+  background: #1f242d url(/images/preloader.gif) no-repeat center;
   background-size: 30%;
   height: 100vh;
   width: 100%;

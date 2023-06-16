@@ -7,8 +7,10 @@ const icon = document.getElementById("icon");
 const loader=document.getElementById("preloader");
 
 window.addEventListener("load", () => {
-loader.style.display = "none";
-})
+  setTimeout(function() {
+    loader.style.display = "none";
+},500)});
+
 
 
 
@@ -41,7 +43,7 @@ window.onscroll = () => {
 ScrollReveal({
   distance: '80px',
   duration: 2000,
-  delay: 200
+  delay: 100
 });
 
 ScrollReveal().reveal('.header, .home-content, .heading', { origin: 'top' });
