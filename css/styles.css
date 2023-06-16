@@ -333,6 +333,7 @@ span {
   font-family: 'Fira Sans', sans-serif;
   color: var(--text-color);
   margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .timeline__component {
