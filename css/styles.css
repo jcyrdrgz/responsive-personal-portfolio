@@ -559,6 +559,10 @@ span {
     text-align: center;
     margin-top: 2rem;
   }
+  #preloader {
+  
+  background-size: 100%;
+  }
 }
 
 #preloader {
