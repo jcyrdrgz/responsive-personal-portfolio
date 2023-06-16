@@ -291,7 +291,7 @@ span {
 
 .techstack-container .techstack-box:hover {
   border-color: var(--main-color);
-  transform: scale(1.02);
+  transform: scale(1.1);
 }
 
 .techstack-box h3 {
@@ -327,12 +327,12 @@ span {
 .timeline {
   margin: 0 auto;
   max-width: 90%;
-  padding: 25px;
+  /* padding: 25px; */
   display: grid;
   grid-template-columns: 1fr 3px 1fr;
   font-family: 'Fira Sans', sans-serif;
   color: var(--text-color);
-  margin-top: 7vh;
+  margin-top: 3vh;
 }
 
 .timeline__component {
@@ -363,7 +363,7 @@ span {
   transform: translateX(-50%);
   width: 20px;
   height: 20px;
-  background: var(--text-color);
+  background: var(--main-color);
   border-radius: 50%;
 }
 
@@ -672,10 +672,18 @@ span {
   .contact form .input-box input {
     width: 100%;
   }
-  .timeline {
-    padding: 0;
-    max-width: 0;
+  .techstack {
+    min-height: 70vh;
   }
+  .techstack-container .techstack-box {
+    height: 17vh;
+    flex: none;
+  }
+
+  .timeline {
+    max-width: 100%;
+  }
+
   #preloader {
     background-size: 110%;
   }
