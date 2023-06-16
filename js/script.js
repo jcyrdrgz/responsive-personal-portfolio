@@ -48,8 +48,8 @@ ScrollReveal({
 
 ScrollReveal().reveal('.header, .home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.home-content h1, .about-img, .experience', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content, .techstack', { origin: 'right' });
 
 const typed = new Typed('.multiple-text', {
   strings: ['a Front end Developer', 'an IT Expert', 'a Software Developer'],
